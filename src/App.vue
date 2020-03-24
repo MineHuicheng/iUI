@@ -1,9 +1,17 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <li>
+        <router-link to="/">Home</router-link>
+      </li>
+      <li>
+        <router-link to="/admin">Admin</router-link>
+      </li>
+      <li>
+        <router-link to="/cart">Cart</router-link>
+      </li>
     </div>
+    <!-- 用于渲染子路由组件 -->
     <router-view />
   </div>
 </template>

@@ -11,7 +11,7 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
 export default class Home extends Vue {
-  @Prop() private msg: string = 'Welcome to Your Vue.js App';
+  @Prop() private msg = 'Welcome to Your Vue.js App';
 }
 </script>
 
